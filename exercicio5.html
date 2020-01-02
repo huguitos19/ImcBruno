@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<html>
+
+
+	<head>
+    
+		<title>Exercício 5</title> 
+   
+    <script>
+	
+        var n1;
+        var n2;
+		
+    function numero() {
+		
+         n1 = parseFloat(window.prompt('Digite o primeiro valor:'));
+		 
+         n2 = parseFloat(window.prompt('Digite o segundo valor:'));}
+		 
+    function soma(){  
+        window.alert(n1 + n2);}
+    function ok1(){
+        window.alert('Passei por aqui !');}
+    
+     
+    </script>  
+     
+    </head>
+<body onload="numero();">  
+      
+    <h1>Eventos</h1>
+    <div>
+        <img onclick="soma();" src="imagens/2914_128x128.png" id="plus"/>
+        
+        <img onmouseover="ok1();" src="imagens/4919_128x128.png" id="stop"/>   
+    
+    </div>
+    
+</body>
+</html>
